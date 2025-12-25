@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36623.8 d17.14
+VisualStudioVersion = 17.14.36623.8
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoolApp", "CoolApp.csproj", "{CACF1A7F-C925-404B-8E4F-45F92247F629}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoolAppTest", "..\CoolAppTest\CoolAppTest.csproj", "{96F2E2EF-847E-4988-A3FC-27AB43A63B73}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{CACF1A7F-C925-404B-8E4F-45F92247F629}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CACF1A7F-C925-404B-8E4F-45F92247F629}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CACF1A7F-C925-404B-8E4F-45F92247F629}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96F2E2EF-847E-4988-A3FC-27AB43A63B73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96F2E2EF-847E-4988-A3FC-27AB43A63B73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96F2E2EF-847E-4988-A3FC-27AB43A63B73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96F2E2EF-847E-4988-A3FC-27AB43A63B73}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
