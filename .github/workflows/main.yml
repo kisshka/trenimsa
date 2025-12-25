@@ -1,6 +1,9 @@
 name: CoolAppWorkflow
 
-on: workflow_dispatch
+on: 
+  push:
+    branches: 
+    - develop
 
 jobs:
   build:
