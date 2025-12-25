@@ -1,0 +1,25 @@
+name: CoolAppWorkflow
+
+on: 
+  push:
+    branches: 
+    - develop
+    - main
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+    - name: Build project
+      run: dotnet build app/CoolApp/CoolApp.csproj
+
+  test:
+    needs: build
+    runs-on: windows-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+    - name: Run tests for release build
+      run: dotnet test app/CoolAppTest/CoolAppTest.csproj
