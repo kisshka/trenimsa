@@ -9,3 +9,4 @@ Console.Write("Введите b: ");
 b = int.Parse(Console.ReadLine());
 
 Console.WriteLine(Plus.PlusMethod(a,b));
+//Сиськи
